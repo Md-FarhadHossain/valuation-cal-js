@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+main > form{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#percentage, #cash {
+    height: 3.5rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
